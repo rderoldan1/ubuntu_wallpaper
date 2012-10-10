@@ -1,4 +1,4 @@
-ubuntu_wallpaper
+ubuntu_wallpaper  [![Build Status](https://secure.travis-ci.org/rderoldan1/ubuntu_wallpaper.png)](http://secure.travis-ci.org/rderoldan1/ubuntu_wallpaper)
 ================
 Change the wallpaper´s image of your ubuntu desktop without effort!
 Ruby is the essence
