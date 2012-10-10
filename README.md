@@ -3,7 +3,7 @@ ubuntu_wallpaper  [![Build Status](https://secure.travis-ci.org/rderoldan1/ubunt
 Change the wallpaper´s image of your ubuntu desktop without effort!
 Ruby is the essence
 https://rubygems.org/gems/wallpapers
-Current release '0.0.5'
+Current release '0.0.8'
 
 Why
 =====
