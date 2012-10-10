@@ -28,6 +28,10 @@ Load the gem
     $ irb
     $ irb(main):001:0> require "wallpaper"
 
+Probably you will see and error with the config.yml, please fix it with the following command
+
+    $ sudo chmod 777 /var/lib/gems/1.9.1/gems/wallpapers-0.0.5/lib/config.yml
+
 First Usage, please set the your backgrounds folder
 
     $ irb(main):001:0> Wallpaper.set_path("/path/backgrounds_path")
