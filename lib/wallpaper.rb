@@ -1,7 +1,6 @@
 require 'yaml'
 class Wallpaper
   puts File.dirname(__FILE__)
-  puts "Opening #{@path}"
 
   def self.get_path
     config = YAML.load_file(File.dirname(__FILE__)+"/config.yml")
@@ -12,7 +11,7 @@ class Wallpaper
     config = File.open(File.dirname(__FILE__)+"/config.yml",'w')
     config.write "path: '#{path}'"
     puts "Configuration file updated"
-    config.close
+    return config.close
   end
 
   def self.run
