@@ -7,7 +7,7 @@ class WallpaperTest < Test::Unit::TestCase
     end
 
     def test_gem
-      assert_kind_of Object, Gem::Specification.find_by_name("wallpapers","0.0.5")
+      assert_kind_of Object, Gem::Specification.find_by_name("wallpapers","0.0.8")
     end
 
     def test_open_file
