@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name  = "wallpapers"
-  s.version = "0.0.3"
+  s.version = "0.0.4"
   s.date = "2012-10-08"
   s.summary = "Wallpapers!"
   s.description = "A simple way to change the wallpaper image in ubuntu"
