@@ -12,9 +12,9 @@ images that I like to display in a folder and magicly the Gem show all it
 
 Requirements
 ===========
-Ruby >= 1.8
-Yaml
-And that´s all :D
+1. Ruby >= 1.8
+2. Yaml
+3. And that´s all :D
 
 Download
 ========
