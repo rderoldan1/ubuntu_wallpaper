@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'wallpaper'
+require "wallpaper"
 
 class WallpaperTest < Test::Unit::TestCase
     def test_call_class
@@ -7,7 +7,7 @@ class WallpaperTest < Test::Unit::TestCase
     end
 
     def test_gem
-      assert_kind_of Object, Gem::Specification.find_by_name("wallpapers","0.0.8")
+      assert_kind_of Object, Gem::Specification.find_by_name("wallpapers","0.0.9")
     end
 
     def test_open_file
