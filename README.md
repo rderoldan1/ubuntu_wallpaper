@@ -1,9 +1,13 @@
 ubuntu_wallpaper  [![Build Status](https://secure.travis-ci.org/rderoldan1/ubuntu_wallpaper.png)](http://secure.travis-ci.org/rderoldan1/ubuntu_wallpaper)
 ================
+
 Change the wallpaper´s image of your ubuntu desktop without effort!
+
 Ruby is the essence
+
 https://rubygems.org/gems/wallpapers
-Current release '0.0.8'
+
+Current release '0.0.9'
 
 Why
 =====
@@ -42,6 +46,14 @@ Ok, your path is setted, now let's play!
     $ irb(main):001:0> Wallpaper.run
 
 then look at the screen..
+
+Contributing
+============
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
 
 **Important**
 =============
